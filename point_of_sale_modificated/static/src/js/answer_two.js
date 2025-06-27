@@ -2,7 +2,6 @@
 
 import { patch } from "@web/core/utils/patch";
 import { reactive } from "@odoo/owl";
-import { useService } from "@web/core/utils/hooks";
 import { ProductScreen } from "@point_of_sale/app/screens/product_screen/product_screen";
 
 patch(ProductScreen.prototype, {
