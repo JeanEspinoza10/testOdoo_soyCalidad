@@ -63,7 +63,7 @@ campo no solo debe tener la fecha sino también la hora. (módulo account)**
     1. extra-addons\account_modificated\models\answer_seven.py
     2. extra-addons\account_modificated\views\answer_seven.xml
 
-## Pregunta :eigth:
+## Pregunta :eight:
 **Los cambios solicitados en los puntos 5, 6 y 7 deben también incluirse en el reporte impreso
 de la factura. (módulo account)**
 
