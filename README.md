@@ -2,7 +2,7 @@
 Ests repositorio se encuentra la resolución de las diferentes preguntas de la prueba técnica de Odoo en la empresa Soy Calidad.
 
 # Resolución e instalación
-Para esta prueba hemos creado 2 módulos para las diferentes preguntas y son:
+Para esta prueba hemos creado 2 módulos para la **Versión de Odoo-18** para las diferentes preguntas y son:
 
     1. account_modificated
     2. point_of_sale_modificated
