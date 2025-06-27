@@ -1,0 +1,17 @@
+<odoo>
+    <data noupdate="1">
+
+        <record id="sales_channel_store" model="sales.channel">
+            <field name="name">Tienda Física</field>
+        </record>
+
+        <record id="sales_channel_web" model="sales.channel">
+            <field name="name">E-commerce</field>
+        </record>
+
+        <record id="sales_channel_marketplace" model="sales.channel">
+            <field name="name">Marketplace</field>
+        </record>
+
+    </data>
+</odoo>

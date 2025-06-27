@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <template id="my_invoice_answer_eigth" inherit_id="my_invoice_qr_patch" priority="20">
+    <xpath expr="//img[@class='qr-img']" position="after">
+      <div class="mt-2" style="font-size:12px;">
+          <p><strong>Serie:</strong> <span t-esc="o.serial_number"/></p>
+          <p><strong>Correlativo:</strong> <span t-esc="o.correlative_number"/></p>
+          <p t-if="o.sales_channel"><strong>Canal de ventas:</strong> <span t-esc="o.sales_channel.name"/></p>
+          <p t-if="o.issue_date"><strong>Fecha de emisión:</strong> 
+            <span t-esc="o.issue_date.strftime('%d/%m/%Y %H:%M')"/>
+          </p>
+        </div>
+    </xpath>
+  </template>
+</odoo>

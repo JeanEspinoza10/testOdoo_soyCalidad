@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="my_invoice_qr_patch" inherit_id="account.report_invoice_document" priority="20">
+    <xpath expr="//div[contains(@class, 'clearfix invoice_main')]" position="after">
+      <t t-if="o.code_qr">
+        <div class="mt-3">
+          <img class="qr-img" t-att-src="'data:image/png;base64,%s' % o.code_qr.decode('utf-8')"/>
+        </div>
+      </t>
+    </xpath>
+  </template>
+</odoo>
